@@ -12,7 +12,7 @@ export const entitySchema = new EntitySchema<{ field1: string, field: 2, relatio
       target: 'another_project',
       joinColumn: {
         name: 'field',
-        referencedColumnName: 'field',
+        referencedColumnName: 'field', //sss
       },
     },
   },
